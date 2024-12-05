@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <link rel="stylesheet" href="css/flexbox.css?version=0.1">
     <title>MARIEL'S PERSONAL PROFILE WEB PAGE</title>
   </head>
   <body>
@@ -8,69 +9,94 @@
       <h1>MARIEL'S PERSONAL PROFILE WEB PAGE</h1>
     </header>
     
-    <h2>ABOUT ME</h2>
-    <p>Hello, world! My name is Mariel. Currently, I am 19 years old. My pronouns are she/her. Let's connect on <a href="https://www.facebook.com/not.mrlgrvdzzzz">Facebook</a> and <a href="https://www.instagram.com/not.mrlgrvdzzzz">Instagram</a>!</p>
-    
-    <h2>EDUCATION/ACHIEVEMENTS</h2>
-    <table>
-      <tr>
-        <th>Educational Stage</th>
-        <th>Level</th>
-        <th>School</th>
-        <th>Year</th>
-        <th>Honors Received</th>
-      </tr>
-      <tr>
-        <td>Elementary</td>
-        <td>Grades 1-6</td>
-        <td>Espiritu Santo Parochial School of Manila, Inc.</td>
-        <td>2011-2017</td>
-        <td>With Honors</td>
-      </tr>
-      <tr>
-        <td rowspan="2">Junior High School</td>
-        <td>Grade 7</td>
-        <td>Espiritu Santo Parochial School of Manila, Inc.</td>
-        <td>2017-2018</td>
-        <td>With Honors</td>
-      </tr>
-      <tr>
-        <td>Grades 8-10</td>
-        <td>Statefields School, Inc.</td>
-        <td>2018-2021</td>
-        <td>With Honors (Grades 8 & 9)</td>
-      </tr>
-      <tr>
-        <td>Senior High School</td>
-        <td>Grades 11-12</td>
-        <td>Statefields School, Inc.</td>
-        <td>2021-2023</td>
-        <td>With High Honors (Grade 11) & With Highest Honors and Conduct (Grade 12)</td>
-      </tr>
-      <tr>
-        <td>College</td>
-        <td>1st-2nd Year</td>
-        <td>Asia Pacific College</td>
-        <td>2023-Present</td>
-        <td>With Honors (1st Year)</td>
-      </tr>
-      </table>
+    <div class="small">
       
+      <div>
+        <h2>ABOUT ME</h2>
+        <p>
+        Hello, world! Welcome to my personal profile web page! My name is Mariel A. Gravidez, and I am currently a 19-year-old student. My pronouns are she/her.
+        Let's connect on <a href="https://www.facebook.com/not.mrlgrvdzzzz" target="_blank">Facebook</a> and 
+        <a href="https://www.instagram.com/not.mrlgrvdzzzz" target="_blank">Instagram</a>!
+        </p>
+      </div>
+      
+      <div>
       <h2>COURSE</h2>
       <p>I am a 2nd-year college student pursuing a Bachelor of Science in Information Technology who aims to be proficient in different programming languages and excel in the tech industry.</p>
+      </div>
       
+      <div>
       <h2>IT EXPERIENCE</h2>
-      <p>Before college, I gained experience in image manipulation and video editing. Now, I strive to be a holistic IT student by joining organizations, participating in competitions, and learning different programming languages.</p>
+      <p>I strive to be a holistic IT student by joining organizations, participating in competitions, and learning different programming languages.</p>
+      </div>
       
+      <div>
       <h2>HOBBIES & INTERESTS</h2>
       <p>During my free time, I enjoy watching films and series. I consider myself a cat person because cats pique my interest with their cute and cool characteristics.</p>
+      </div>
       
+      <div>
       <h2>GOALS IN LIFE/DREAM</h2>
       <p>My personal goal in life is to achieve the greatest gratitude, not just for the material possessions I have or the relationships I've built, but especially for myself.</p>
+      </div>
+    </div>
+    
+    <div class="big">
       
+      <div>
+      <h2>EDUCATION/ACHIEVEMENTS</h2>
+      <table>
+        <tr>
+          <th>Educational Stage</th>
+          <th>Level</th>
+          <th>School</th>
+          <th>Year</th>
+          <th>Honors Received</th>
+        </tr>
+        <tr>
+          <td>Elementary</td>
+          <td>Grades 1-6</td>
+          <td>Espiritu Santo Parochial School of Manila, Inc.</td>
+          <td>2011-2017</td>
+          <td>With Honors</td>
+        </tr>
+        <tr>
+          <td rowspan="2">Junior High School</td>
+          <td>Grade 7</td>
+          <td>Espiritu Santo Parochial School of Manila, Inc.</td>
+          <td>2017-2018</td>
+          <td>With Honors</td>
+        </tr>
+        <tr>
+          <td>Grades 8-10</td>
+          <td>Statefields School, Inc.</td>
+          <td>2018-2021</td>
+          <td>With Honors (Grades 8 & 9)</td>
+        </tr>
+        <tr>
+          <td>Senior High School</td>
+          <td>Grades 11-12</td>
+          <td>Statefields School, Inc.</td>
+          <td>2021-2023</td>
+          <td>With High Honors (Grade 11) & With Highest Honors and Conduct (Grade 12)</td>
+        </tr>
+        <tr>
+          <td>College</td>
+          <td>1st-2nd Year</td>
+          <td>Asia Pacific College</td>
+          <td>2023-Present</td>
+          <td>With Honors (1st Year)</td>
+        </tr>
+        </table>
+      </div>
+      
+      <div>
       <h2>PICTURE GALLERY</h2>
-      <img src="images/about-me.png" alt="About Mariel">
-      <img src="images/dream-board.jpg" alt="Mariel's Dreams">
+      <img id="about-me" src="https://raw.githubusercontent.com/magravidez/WEBPROG-Personal-Website/refs/heads/feature/css-flexbox/home/images/about-me.png" alt="About Mariel">
+      <img id="dream-board" src="https://raw.githubusercontent.com/magravidez/WEBPROG-Personal-Website/refs/heads/feature/css-flexbox/home/images/dream-board.jpg" alt="Mariel's Dreams">
+      </div>
+      
+    </div>
 
   </body>
 </html>
