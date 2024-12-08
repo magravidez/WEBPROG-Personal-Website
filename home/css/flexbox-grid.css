@@ -1,0 +1,137 @@
+header {
+  background-color: cornflowerblue;
+  color: floralwhite;
+  padding: 20px;
+  text-align: center;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+  box-shadow: 0 4px 5px rgba(0, 0, 0, 0.3), 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+h1, h2 {
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+  color: floralwhite;
+  letter-spacing: 5px;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  margin: 0;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 1.5em;
+  padding-top: 0;
+  padding-bottom: 10px;
+}
+
+body {
+  font-family: "Times New Roman", serif;
+  background: url("https://raw.githubusercontent.com/magravidez/WEBPROG-Personal-Website/refs/heads/feature/css-flexbox/home/images/background.png") no-repeat fixed;
+  background-size: cover;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: black;
+}
+
+p {
+  font-size: 1em;
+  margin: 0;
+  padding: 0;
+}
+
+.grid-small,
+.grid-big {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+
+.flexbox-small,
+.flexbox-big {
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.flexbox-small > div,
+.flexbox-big > div {
+  background-color: rgba(176, 196, 222, 0.9);
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+  font-size: 1em;
+}
+
+.flexbox-small > div {
+  width: 200px;
+  height: auto;
+}
+
+.flexbox-big > div {
+  width: 550px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+table, th, td {
+  border: 1.5px solid floralwhite;
+  border-radius: 10px;
+  font-size: 0.8em;
+  text-align: left;
+  margin-top: 10px;
+  padding: 5px;
+}
+
+th {
+  background-color: cornflowerblue;
+  color: floralwhite;
+  font-family: "Courier New", Courier, monospace;
+}
+
+img {
+  margin-top: 15px;
+}
+
+#about-me {
+  width: 220px;
+  height: 220px;
+}
+
+#dream-board {
+  width: 290px;
+  height: 220px;
+}
+
+footer {
+  background-color: cornflowerblue;
+  color: black;
+  text-align: center;
+  padding: 20px;
+  font-family: "Times New Roman", serif;
+  font-size: 1em;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  margin: 0;
+  box-shadow: 0 -4px 5px rgba(0, 0, 0, 0.3), 0 -6px 15px rgba(0, 0, 0, 0.2);
+}
+
+footer a {
+  color: floralwhite;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
