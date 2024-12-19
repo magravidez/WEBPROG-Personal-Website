@@ -8,40 +8,50 @@
   <body>
     <header>
       <h1>MARIEL'S PERSONAL PROFILE WEB PAGE</h1>
+      <div>
+        <button onclick="location.hash='about-mes'">About Me</button>
+        <button onclick="location.hash='course'">Course</button>
+        <button onclick="location.hash='it-experience'">IT Experience</button>
+        <button onclick="location.hash='hobbies-interests'">Hobbies & Interests</button>
+        <button onclick="location.hash='goals-in-life-dream'">Goals in Life/Dream</button>
+        <button onclick="location.hash='education-achievements'">Education/Achievements</button>
+        <button onclick="location.hash='picture-gallery'">Picture Gallery</button>
+      </div>
     </header>
 
     <div class="grid-small">
       <main>
         <section class="flexbox-small">
-          <div class="about-me">
+          <div id="about-mes">
             <h2>ABOUT ME</h2>
             <p>
               Hello, world! Welcome to my personal profile web page! My name is Mariel A. Gravidez, and I am currently a 19-year-old student. My pronouns are she/her.
+              Explore my journey through my education, achievements, course, IT experience, hobbies, interests, and dreams. Don’t forget to check out my picture gallery!
             </p>
           </div>
 
-          <div class="course">
+          <div id="course">
             <h2>COURSE</h2>
             <p>
               I am a 2nd-year college student pursuing a Bachelor of Science in Information Technology who aims to be proficient in different programming languages and excel in the tech industry.
             </p>
           </div>
 
-          <div class="it-experience">
+          <div id="it-experience">
             <h2>IT EXPERIENCE</h2>
             <p>
-              I strive to be a holistic IT student by joining organizations, participating in competitions, and learning different programming languages.
+                        Before college, I gained experience in image manipulation and video editing. Now, I strive to be a holistic IT student by joining organizations, participating in competitions, and learning different programming languages.
             </p>
           </div>
 
-          <div class="hobbies-interests">
+          <div id="hobbies-interests">
             <h2>HOBBIES & INTERESTS</h2>
             <p>
               During my free time, I enjoy watching films and series. I consider myself a cat person because cats pique my interest with their cute and cool characteristics.
             </p>
           </div>
 
-          <div class="goals-in-life-dream">
+          <div id="goals-in-life-dream">
             <h2>GOALS IN LIFE/DREAM</h2>
             <p>
               My personal goal in life is to achieve the greatest gratitude, not just for the material possessions I have or the relationships I've built, but especially for myself.
@@ -54,7 +64,7 @@
     <div class="grid-big">
       <main>
         <section class="flexbox-big">
-          <div class="education-achievements">
+          <div id="education-achievements">
             <h2>EDUCATION/ACHIEVEMENTS</h2>
             <table>
               <tr>
@@ -101,7 +111,7 @@
             </table>
           </div>
 
-          <div class="picture-gallery">
+          <div id="picture-gallery">
             <h2>PICTURE GALLERY</h2>
             <img id="about-me" src="https://raw.githubusercontent.com/magravidez/WEBPROG-Personal-Website/refs/heads/feature/css-flexbox/home/images/about-me.png" alt="About Mariel">
             <img id="dream-board" src="https://raw.githubusercontent.com/magravidez/WEBPROG-Personal-Website/refs/heads/feature/css-flexbox/home/images/dream-board.jpg" alt="Mariel's Dreams">
