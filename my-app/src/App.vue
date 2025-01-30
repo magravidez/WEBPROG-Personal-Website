@@ -19,9 +19,10 @@ onMounted(() => {
 </script>
 
 <template>
-  <ul>
-    <li v-for="item in feedback" :key="item.id">
-      {{ item.name }} - {{ item.email }} - {{ item.feedback }}
-    </li>
-  </ul>
+  <h1>FEEDBACK</h1>
+    <ul>
+      <li v-for="item in feedback" :key="item.id">
+        {{ item.name }} - {{ item.email }} - {{ item.feedback }}
+      </li>
+    </ul>
 </template>
